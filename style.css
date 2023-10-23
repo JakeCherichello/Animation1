@@ -7,7 +7,13 @@ body {
     align-items: center;
     margin: 0;
     /* change background */
-    background: #424f6f
+    background: #424f6f;
 }
 
-#container
+#container{
+    width: 400px;
+    height: 400px;
+    padding: 0;
+    box-sizing:border-box;
+    background: #424f6f;
+}
