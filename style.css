@@ -7,7 +7,9 @@ body {
     align-items: center;
     margin: 0;
     /* change background */
-    background: black;
+    background-image: url("images/fued.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #container{
@@ -15,7 +17,7 @@ body {
     height: 400px;
     padding: 0;
     box-sizing:border-box;
-    background: black;
+    background: transparent;
 }
 
 *after,
@@ -27,16 +29,15 @@ body {
     margin: 10% auto;
     width: 80%;
     height: 80%;
-    animation:floaty .2s infinite;
+    animation:floaty 2s infinite;
 }
 
 #spooky #body{
     position: relative;
-    margin: 50px auto 0;
+    margin: 200px auto 0;
     width: 180px;
     height: 220px;
-    background: yellowgreen;
-    border-top-left-radius: 90px;
+    background: rgb(94, 65, 48);    border-top-left-radius: 90px;
     border-top-right-radius: 90px;
 }
 
@@ -49,8 +50,8 @@ body {
     width: 36px;
     height: 36px;
     border-radius: 50%;
-    background: green;
-    animation: floaty .1s infinite;
+    background: rgb(94, 65, 48);
+    animation: floaty 1s infinite;
 }
 
 #spooky #body:before {
@@ -76,12 +77,12 @@ body {
     display: block;
     width: 30px;
     height: 30px;
-    background: green;
+    background: black;
     border-radius: 50%;
 }
 
 #spooky #body #mouth {
-    background: green;
+    background: white;
     margin: 25px auto 0;
     width: 60px;
     height: 30px;
@@ -93,9 +94,10 @@ body {
 #spooky #body #mouth:before {
     content: '';
     display: block;
-    background: yellow;
-    margin-left: 20px;
-    width: 10px;
+    background: black;
+    border-bottom-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    width: 60px;
     height: 10px;
 }
 
@@ -114,17 +116,8 @@ body {
     content: ' ';
     width: 36px;
     height: 36px;
-    background: yellowgreen;
+    background: rgb(94, 65, 48);
     border-radius: 50%;
-}
-
-#shadow {
-    margin: -90px auto 0;
-    background: #252c49;
-    width: 180px;
-    height: 40px;
-    border-radius: 50%;
-    animation: zoomy 2s infinite;
 }
 
 @keyframes floaty {
