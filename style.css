@@ -82,7 +82,7 @@ body {
 }
 
 #spooky #body #mouth {
-    background: white;
+    background: rgb(233, 187, 187);
     margin: 25px auto 0;
     width: 60px;
     height: 30px;
@@ -94,11 +94,11 @@ body {
 #spooky #body #mouth:before {
     content: '';
     display: block;
-    background: black;
-    border-bottom-left-radius: 7px;
-    border-bottom-left-radius: 7px;
+    background: rgb(39, 33, 33);
+    border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 6px;
     width: 60px;
-    height: 10px;
+    height: 13px;
 }
 
 /* feet */
